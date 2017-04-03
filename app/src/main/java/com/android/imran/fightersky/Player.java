@@ -11,7 +11,6 @@ public class Player extends GameObject {
     private boolean playing;
     private Animation animation = new Animation();
     private long startTime;
-    private Smoke smoke;
 
     public Player(Bitmap res, int w, int h, int numFrames) {
         x = 100;
